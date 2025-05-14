@@ -1,0 +1,21 @@
+replicaCount: 1
+
+frontend:
+  image:
+    repository: frontend
+    tag: latest
+
+orderService:
+  image:
+    repository: order-service
+    tag: latest
+
+paymentService:
+  image:
+    repository: payment-service
+    tag: latest
+
+inventoryService:
+  image:
+    repository: inventory-service
+    tag: latest
